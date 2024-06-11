@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental: {
-        reactCompiler: {
-          compilationMode: 'annotation',
-        },
-      },
-};
+  experimental: {
+    appDir: true,
+    reactCompiler: {
+      compilationMode: 'annotation'
+    }
+  }
+}
 
-export default nextConfig;
+export default nextConfig
